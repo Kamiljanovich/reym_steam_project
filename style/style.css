@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 1500px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+header{
+    overflow: hidden;
+    height: 788px;
+}
+.header-items {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+.header-title{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 500px;
+    font-size:30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-p{
+    font-size: 35px;
+    font-weight: 500;
+    color:#333;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-list{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin-top: 20px;
+}
+.list{
+    list-style: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+.list:hover{
+    color: red;
+}
+.h-input{
+    width: 160px;
+    height: 30px;
+}
+.h-btn{
+    width: 80px;
+    height: 45px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    margin-top: 155px;
+    margin-bottom: 80px;
+}
+.main-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+     h1{
+        font-size: 75px;
+    }
+}
+
+.section-top{
+    display: flex;
+    justify-content: space-between;
+}
+.section-bottom{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.game {
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0px 6.98549px 42.44px rgba(5, 8, 8, 0.25);
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.game img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    width: 85px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #132b44;
+    color: white;
+    /* padding:  10px; */
+    /* border: none; */
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    color: black;
+}
+.main-intro-title{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  margin-bottom: 100px;
+}
+.main-intro-items {
+    width: 1400px;
+    display: flex;
+    border: 1px solid #fff;
+    justify-content: center;
+}
+
+.intro-title{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 120px;
+}
+.intro-img{
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom:15px ;
+}
+.intro-h{
+    display: flex;
+    margin: 10px 20px ;
+    font-size: 55px;
+}
+.intro-p{
+    /* margin: 20px; */
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+.footer_section-body {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .footer-title{
+    font-size: 35px;
+    margin-right: 85px;
+  }
+.footer-input{
+    width: 200px;
+    height: 40px;
+    border: 3px solid;
+    border-radius: 8px;
+    margin-right: 20px;
+
+}
+.footer {
+    width: 100%;
+  }
+  .footer-btn{
+    width: 100px;
+    height: 50px;
+  }
+  
+  .footer__row {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 20px 0 20px 0;
+    border-top: 2px solid #928c8c;
+    border-bottom: 2px solid #928c8c;
+  }
+  
+  .footer__row-logo img {
+    width: 150px;
+    height: 100px;
+  }
+  
+  .footer__row h3 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: black;
+  }
+  
+  .footer__row span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+  
+  .footer__row a {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #443f3f;
+  }
+  
+  .footer__row .company {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .footer__row .help {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .footer__row .catalog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .footer__row .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .footer__row .contact li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .footer__row .contact li .contact-phone {
+    font-size: 26px;
+  }
+
+  
+  .footer__row h3 {
+    font-size: 14px;
+  }
+  
+  .footer__row span {
+    font-size: 12px;
+  }
+  
+  .footer__footer {
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .footer__footer p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  
